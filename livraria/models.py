@@ -35,6 +35,8 @@ class Livro(models.Model):
     categoria = models.ForeignKey(
         Categoria, on_delete=models.PROTECT, related_name="livros"
     )
+    editora = models.ForeignKey(Editora, on_delete=models.PROTECT, related_name="livros")
+
 
 
     def __str__(self):
