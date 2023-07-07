@@ -1,4 +1,4 @@
 from .autor import Autor
-from .autor import Categoria
-from .autor import Livro
-from .autor import Editora
+from .categoria import Categoria
+from .editora import Editora
+from .livro import Livro
